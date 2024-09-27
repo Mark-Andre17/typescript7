@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/sass/style.css">
+    <script defer src="./src/js/star-wars.js"></script>
+    <script defer src="./src/js/search.js"></script>
+    <title>STAR-WARS</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_title">star wars</h1>
+        <audio class="header__audio" controls preload="metadata">
+            <source src="./src/audio/Star Wars - Star Wars Main Title_(audiodevil.ru).mp3" type="audio/mp3">
+        </audio>
+    </header>
+    <main class="main">
+        <form action="" class="main-search">
+            <select name="" id="" class="search-select" value="people">
+                <option value="people">people</option>
+                <option value="planets">planets</option>
+                <option value="species">species</option>
+            </select>
+            <input type="text" class="input-search" placeholder="search...">
+            <button class="search_button">search</button>
+        </form>
+        <div class="delimiter">
+            or
+        </div>
+        <form action="" class="main-search2">
+            <select name="" id="" class="search-select2" value="people">
+                <option value="people">people</option>
+                <option value="planets">planets</option>
+                <option value="species">species</option>
+            </select>
+            <input type="text" class="input-search2" placeholder="by id...">
+            <button class="search_button2">by id</button>
+        </form>
+        <div class="spinnerContainer">
+            <img class="spinner" src="./src/img/dv.png" alt="spinner">
+          </div>
+        <div class="result">
+            <div class="result_header">
+                <h3 class="result_title">Unknow</h3>
+                <button class="result_exit">
+                    <span class="exit"></span>
+                    <span class="exit"></span>
+                </button>
+            </div>
+            <div class="result_main">
+                <h1 class="result_main-title">star<br>wars</h1>
+                <div class="run_text"></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

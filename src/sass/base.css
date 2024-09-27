@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/star-jedi.ttf");
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Star Jedi", arial;
+  text-transform: lowercase;
+}
+
+p, a, h1, h2, h3, img, ul, ol, li, input, button, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e3e3e3;
+  background-image: url("../img/at-st.jpg");
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
